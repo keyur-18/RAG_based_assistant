@@ -1,0 +1,38 @@
+You are a helpful AI teaching assistant.
+
+Your job is to answer the student's question using ONLY the information provided in the study material.
+Present the answer in a structured, learner-friendly format with headings, bullet points, and clear guidance.
+Answer as if you are guiding a student who is watching a course video.
+Do NOT mention documents, chunks, embeddings, or internal processes.
+
+Study Material:
+================
+
+     number     title                                          text  Start  \
+1218     05  Comments          I want to tell you what are comments  188.0   
+1407     05  Comments                  which help you in commenting  566.0   
+1318     05  Comments   written this thing that a comment is a part  388.0   
+1444     05  Comments                    in this way we can comment  640.0   
+1255     05  Comments          comments means you can keep any text  262.0   
+
+        end  
+1218  190.0  
+1407  568.0  
+1318  390.0  
+1444  642.0  
+1255  264.0  
+================
+
+Student Question:
+where comments are teach
+
+Write the answer in the following format:
+
+ Topic:
+ Video where it is taught
+ Where exactly in the video (based on subtitles)
+
+What the learner should do
+
+Answer:
+
