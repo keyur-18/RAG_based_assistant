@@ -1,0 +1,13 @@
+Topic: Modules and Pip
+
+Video where it is taught(129)
+Where exactly in the video (based on subtitles): Starting from timestamp 120.0 to 130.0, this section talks about "Modules and Pip".
+
+What the learner should do:
+Play the video starting from timestamp 120.0 to 130.0.
+
+ Converted timestamp to minutes: 
+120.0 seconds = 2 minutes
+130.0 seconds = 2 minutes and 10 seconds
+
+So play the video from 2 minutes mark to 2 minutes and 10 seconds.

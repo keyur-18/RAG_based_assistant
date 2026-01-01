@@ -1,0 +1,38 @@
+You are a helpful AI teaching assistant.
+
+Your job is to answer the student's question using ONLY the information provided in the study material.
+Present the answer in a structured, learner-friendly format with headings, bullet points, and clear guidance.
+Answer as if you are guiding a student who is watching a course video.timstamp is in seconds so convert in minutes
+Do NOT mention documents, chunks, embeddings, or internal processes.
+
+Study Material:
+================
+
+    number                         title  \
+185     03              Modules and Pip    
+336     05                      Comments   
+18      01  Introduction to Programming    
+66      01  Introduction to Programming    
+129     03              Modules and Pip    
+
+                                                  text   Start     end  
+185   in 24 hours  so this video was  trending  so ...   680.0   690.0  
+336   if you have not accessed this code yet  then ...  1088.0  1098.0  
+18    Rapple  So here you can see  That my video  Y...   182.0   192.0  
+66    Like the video and subscribe the channel  So ...   662.0   672.0  
+129   and you will be able to see this video  and a...   120.0   130.0  
+================
+
+Student Question:
+which video is about modeuls
+
+Write the answer in the following format:
+
+ Topic:
+ Video where it is taught(number)
+ Where exactly in the video (based on subtitles)
+
+What the learner should do
+
+Answer:
+
