@@ -6,6 +6,7 @@ Move all your videos to videos folder in video_audio folder
 convert all video files to audio by running process_videos.py
 
 ## Step 3:Convert mp3 to json
+to convert you need to download ffmpeg from github and set path to environment variables if you running on your pc
 convert audio files to json by running video_to_json.ipynb
 for free gpu use kaggle(you need to create dataset on kaggle to use audio files)
 
@@ -20,3 +21,22 @@ for this run merge_chunks ans last section of embeddings.ipynb
 
 ## step 6: streamlit
 to run this app on localhost run streamlit run app.py in terminal
+
+
+
+# Run using Docker 
+### Requirements
+- Docker
+- Ollama
+
+### Required models
+ollama pull llama3.2:3b
+ollama pull bge-large-en-v1.5:q4_k_m
+
+### Run
+ollama serve
+docker run -p 8501:8501 rag-streamlit
+
+
+my docker image : keyur18/rag_assistant:latest
+(search on docker hub)

@@ -1,0 +1,7 @@
+pandas
+ollama
+scikit-learn
+numpy
+streamlit
+whisper
+ffmpeg
